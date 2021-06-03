@@ -38,19 +38,24 @@ img
 {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    width: 510px;
+    
+    
 
 }
 
 .soustitre
 {
-    color: white;
+    color: rgb(149, 147, 147);
     font-size: 16px;
     padding-left: 56px;
-    width: 320px;
+    width: 354px;
     margin:0;
     padding:0;
-    padding-left:56px;
+    padding-left:107px;
     padding-bottom: 60px;
+    line-height:30px;
 }
 .colorword
 {
@@ -68,15 +73,32 @@ h1
     margin-top:20px;
     margin-left:60px;
     width: 385px;
-    font-size: 45px;
+    font-size: 40px;
 }
-.description
+.descriptioncom
 {
-    color: white;
+    color: gray;
     display: flex;
     margin:0;
-    margin-left:60px;
-    margin-bottom:50px;
+    font-size: 12px;
+    margin-left:104px;
+
+}
+.descriptiontemp
+{
+    color: gray;
+    display: flex;
+    margin:0;
+    font-size: 12px;
+    margin-left: 78px;
+}
+.descriptionque
+{
+    color: gray;
+    display: flex;
+    margin:0;
+    font-size: 12px;
+    margin-left:69px;
 
 }
 h2
@@ -90,8 +112,10 @@ h2
 
 .description2
 {
+    color:gray;
     display: flex;
     font-size: 13px;
+    margin-top: 11px;
     
 
 }
