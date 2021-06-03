@@ -1,30 +1,97 @@
 body
 {
     background-color: #0a0c1b;
+    display: flex;
+    
 }
 
 .card
 {
+    background-color:#1a1836;
     margin: auto;
-    margin: 160px;
+    margin: 90px;
+    margin-right: 0px;
     display: flex;
     flex-direction: column;
+    width: 40%;
+    height: 481px;
+    border-radius: 3%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-family: 'roboto', sans-serif;
+}
+img
+{
+
+    width: 100%;
+    border-radius: 3%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    
+}
+.parentimage
+{
+    margin-top:90px;
+    
+}
+.parent
+{
+    display: flex;
+    flex-direction: row;
+
 }
 
 .soustitre
 {
     color: white;
+    font-size: 16px;
+    padding-left: 56px;
+    width: 320px;
+    margin:0;
+    padding:0;
+    padding-left:56px;
+    padding-bottom: 60px;
+}
+.colorword
+{
+    color: rgba(185, 113, 230, 0.705);
 }
 h1
 {
     color: white;
     align-items:flex-start;
+    padding-top: 45px;
+    padding-right:45px;
+    padding-bottom: 25px;
+    padding-left:45px;
+    margin: 0;
+    margin-top:20px;
+    margin-left:60px;
+    width: 385px;
+    font-size: 45px;
 }
 .description
 {
     color: white;
+    display: flex;
+    margin:0;
+    margin-left:60px;
+    margin-bottom:50px;
+
 }
 h2
 {
     color:white;
+    align-items: center;
+    margin: 0;
+    margin-left: 60px;
+    margin-right: 30px;
+}
+
+.description2
+{
+    display: flex;
+    font-size: 13px;
+    
+
 }
