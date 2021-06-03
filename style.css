@@ -1,0 +1,30 @@
+body
+{
+    background-color: #0a0c1b;
+}
+
+.card
+{
+    margin: auto;
+    margin: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.soustitre
+{
+    color: white;
+}
+h1
+{
+    color: white;
+    align-items:flex-start;
+}
+.description
+{
+    color: white;
+}
+h2
+{
+    color:white;
+}
