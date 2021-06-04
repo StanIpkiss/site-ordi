@@ -29,11 +29,23 @@ h1
     align-items:flex-start;
     margin: 0;
     width: 385px;
-    font-size: 30px;
+    font-size: 39px;
 }
 .stats
 {
     display: flex;
+}
+.filtreViolet
+{
+    background-color: rgba(129, 60, 172, 0.705);
+    position: absolute;
+    bottom:0;
+    top: 0;
+    right: 0;
+    left:0;
+    border-radius: 3%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 img
 {
@@ -44,6 +56,10 @@ img
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     
+}
+.parentimage
+{
+    position: relative;   
 }
 
 .item-stat
@@ -81,9 +97,11 @@ img
 
 .soustitre
 {
-    color:gray;
-    font-size: 13px;
-    margin-top: 11px;
-    width: 290px;
+    color:rgb(158, 158, 158);
+    font-size: 17px;
+    padding-top: 30px;
+    width: 410px;
+    margin: 0;
+    padding-bottom:80px;
 
 }
