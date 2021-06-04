@@ -2,120 +2,88 @@ body
 {
     background-color: #0a0c1b;
     display: flex;
+    min-height: 100vh;
+    margin: 0;
+    
+}
+.card
+{
+    margin: auto;
+    display: flex;
     
 }
 
-.card
+.content
 {
     background-color:#1a1836;
-    margin: auto;
-    margin: 90px;
-    margin-right: 0px;
-    display: flex;
     flex-direction: column;
-    width: 40%;
-    height: 481px;
-    border-radius: 3%;
+    border-radius: 2%;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     font-family: 'roboto', sans-serif;
-}
-img
-{
-
-    width: 100%;
-    border-radius: 3%;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    
-}
-.parentimage
-{
-    margin-top:90px;
-    
-}
-.parent
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 510px;
-    
-    
-
-}
-
-.soustitre
-{
-    color: rgb(149, 147, 147);
-    font-size: 16px;
-    padding-left: 56px;
-    width: 354px;
-    margin:0;
-    padding:0;
-    padding-left:107px;
-    padding-bottom: 60px;
-    line-height:30px;
-}
-.colorword
-{
-    color: rgba(185, 113, 230, 0.705);
+    padding: 80px;
 }
 h1
 {
     color: white;
     align-items:flex-start;
-    padding-top: 45px;
-    padding-right:45px;
-    padding-bottom: 25px;
-    padding-left:45px;
     margin: 0;
-    margin-top:20px;
-    margin-left:60px;
     width: 385px;
-    font-size: 40px;
+    font-size: 30px;
 }
-.descriptioncom
+.stats
 {
-    color: gray;
     display: flex;
+}
+img
+{
+
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    
+}
+
+.item-stat
+{
+    
+    
+    
+}
+.label
+{
+    color: rgb(149, 147, 147);
+    font-size: 16px;
     margin:0;
-    font-size: 12px;
-    margin-left:104px;
+    padding:0;
+    line-height:30px;
+    width: 125px;
+}
+.colorword
+{
+    color: rgba(185, 113, 230, 0.705);
+}
+.parenth1
+{
+
 
 }
-.descriptiontemp
-{
-    color: gray;
-    display: flex;
-    margin:0;
-    font-size: 12px;
-    margin-left: 78px;
-}
-.descriptionque
-{
-    color: gray;
-    display: flex;
-    margin:0;
-    font-size: 12px;
-    margin-left:69px;
 
-}
-h2
+
+.title
 {
     color:white;
     align-items: center;
     margin: 0;
-    margin-left: 60px;
-    margin-right: 30px;
 }
 
-.description2
+.soustitre
 {
     color:gray;
-    display: flex;
     font-size: 13px;
     margin-top: 11px;
-    
+    width: 290px;
 
 }
